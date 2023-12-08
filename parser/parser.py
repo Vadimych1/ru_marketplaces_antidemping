@@ -9,7 +9,7 @@ options.add_argument("--deisable-blink-features=AutomationControlled")
 options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
-options._binary_location = "D:\PROJECTS\DempingParser\webdriver\driver\win32\chromedriver.exe"
+# options.binary_location = "D:\PROJECTS\DempingParser\webdriver\driver\win32\chromedriver.exe"
 
 driver = webdriver.Chrome(options=options)
 
